@@ -1,0 +1,29 @@
+body {
+    /*background-image: url('WEJUMP.png');*/
+    background-repeat: no-repeat;
+    background-color: rgb(15, 165, 92);
+    font-family: 'comic sans', 'Comic Sans MT', Comic Sans, 'Comic Sans MS', sans-serif;
+    /*font-family: "Wingdings 3"; */
+    color:rgb(127, 0, 196); 
+  }
+  h1 {
+    color:rgb(255, 0, 251); 
+    font-size: 50px;
+  }
+  div {
+    color:rgb(0, 0, 0); 
+  }
+.center {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.about {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 30%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
